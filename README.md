@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CloudCheckr is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/cloudcheckr_stock/
+CloudCheckr provides cloud cost management and optimization solutions for managed service providers and enterprises. It helps organizations identify wasted spend, control AI costs, reduce Kubernetes expenses, and allocate cloud costs across business units. As part of Flexera, CloudCheckr delivers unified visibility, governance, and risk management across multi-cloud environments, enabling FinOps and operational efficiency.
+
+**Areas:** Company · Cloud Cost Management · FinOps · MSP · Enterprise · Flexera
+
+## CloudCheckr on APIs.io
+
+Everything profiled for CloudCheckr is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cloudcheckr/](https://apis.io/providers/cloudcheckr/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [CloudCheckr Content API](https://apis.io/apis/cloudcheckr/cloudcheckr-content-api/) — The Content API from CloudCheckr — 1 operation(s) for content.
+- [CloudCheckr Iam API](https://apis.io/apis/cloudcheckr/cloudcheckr-iam-api/) — The Iam API from CloudCheckr — 1 operation(s) for iam.
+- [CloudCheckr Msp API](https://apis.io/apis/cloudcheckr/cloudcheckr-msp-api/) — The Msp API from CloudCheckr — 1 operation(s) for msp.
+- [CloudCheckr Oidc API](https://apis.io/apis/cloudcheckr/cloudcheckr-oidc-api/) — The Oidc API from CloudCheckr — 1 operation(s) for oidc.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [PostContentV2OrgsYourRequest](https://apis.io/schemas/cloudcheckr/cloudcheckr-post-content-v2-orgs-your-request/)
+- [PostOidcTokenResponse](https://apis.io/schemas/cloudcheckr/cloudcheckr-post-oidc-token-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Cloudcheckr Context](https://apis.io/jsonld/cloudcheckr/cloudcheckr-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [CloudCheckr API Rules](https://apis.io/rules/cloudcheckr/cloudcheckr-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cloudcheckr Authentication](https://apis.io/security/cloudcheckr/cloudcheckr-authentication/)
+- [Cloudcheckr Domain Security](https://apis.io/security/cloudcheckr/cloudcheckr-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cloudcheckr Rate Limits](https://apis.io/rate-limits/cloudcheckr/cloudcheckr-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.flexera.com/products/cloudcheckr)
+- [Documentation](https://developer.flexera.com/)
+- [Getting started](https://developer.flexera.com/docs/api/finops-onboarding/v1)
+- [Blog](https://www.flexera.com/blog/)
+- [Security](https://www.flexera.com/products/security)
+- [Privacy policy](https://www.flexera.com/legal/privacy-policy)
+- [Status](https://status.flexera.com/)
+
+## API Evangelist rating
+
+**Kin Score 31.6** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 80.4 |
+| Contract quality | 21.6 |
+| Contract governance | 22.0 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 35.7 |
+| Access clarity | 10.5 |
+
+**Agent readiness 33.1** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 20.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cloudcheckr/](https://apis.io/providers/cloudcheckr/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CloudCheckr: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cloudcheckr/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
